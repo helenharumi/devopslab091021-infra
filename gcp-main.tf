@@ -16,7 +16,7 @@ resource "google_compute_instance" "firstvm" {
     network = "default" # Estamos usando a VPC default que já vem por padrão no projeto.
 
     access_config {
-    // A presença do bloco access_config, mesmo sem argumentos, garante que a instância estará acessível pela internet.
+      // A presença do bloco access_config, mesmo sem argumentos, garante que a instância estará acessível pela internet.
     }
   }
 }
